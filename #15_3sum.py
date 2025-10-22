@@ -28,6 +28,3 @@ def threeSum(self, nums: List[int]) -> List[List[int]]:
                 right -= 1
 
     return answer
-
-list=[1,3,5,8]
-print(threeSum(list))
