@@ -1,4 +1,4 @@
-def FourSum(list,target):
+def fourSum(list,target):
     list.sort()
     collection=[]
 
@@ -34,5 +34,5 @@ def FourSum(list,target):
 
 
 nums = [1,0,-1,0,-2,2]
-aa=FourSum(nums,0)
+aa=fourSum(nums,0)
 print(aa)
